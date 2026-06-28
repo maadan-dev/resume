@@ -14,16 +14,36 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Abdulyekeen Maadan — Resume",
-    "alternateName": ["Maadan Resume", "Abdulyekeen Maadan Resume"],
-    "url": "https://resume.maadan.dev/"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://resume.maadan.dev/#website",
+        "url": "https://resume.maadan.dev/",
+        "name": "Abdulyekeen Maadan · Frontend &amp; Go Developer — Resume",
+        "alternateName": ["Maadan Resume", "Abdulyekeen Maadan Resume", "resume.maadan.dev", "maadan.dev"],
+        "publisher": {
+          "@id": "https://resume.maadan.dev/#person"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://resume.maadan.dev/#person",
+        "name": "Abdulyekeen Maadan",
+        "jobTitle": "Software Developer",
+        "url": "https://resume.maadan.dev/",
+        "sameAs": [
+          "https://www.maadan.dev/",
+          "https://www.linkedin.com/in/abdulyekeenmaadan",
+          "https://github.com/maadan-dev"
+        ]
+      }
+    ]
   }
   </script>
   
   <!-- OpenGraph Metadata for WhatsApp/LinkedIn sharing -->
   <meta property="og:title" content="Abdulyekeen Maadan · Frontend &amp; Go Developer — Resume">
-  <meta property="og:site_name" content="Abdulyekeen Maadan — Resume">
+  <meta property="og:site_name" content="Abdulyekeen Maadan · Frontend &amp; Go Developer — Resume">
   <meta property="og:description" content="Mathematics graduate turned software developer. Incoming Fellow at the Learn2Earn AI Software Engineering Fellowship. Ships React, TypeScript, and Go applications.">
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://resume.maadan.dev">
